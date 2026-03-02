@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>TAW School ID Lookup</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+  :root {
+    --bg: #003a54;
+    --bg2: #004969;
+    --bg3: #005f87;
+    --border: rgba(255,255,255,0.08);
+    --accent: #e8c07d;
+    --blue: #7db8e8;
+    --green: #6ee7b7;
+    --red: #f87171;
+    --text: #f0f2fa;
+    --text2: rgba(240,242,250,0.75);
+    --text3: rgba(240,242,250,0.45);
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+
+  .page { max-width: 860px; margin: 0 auto; }
+
+  /* Header */
+  .header {
+    display: flex; align-items: center; gap: 16px;
+    margin-bottom: 36px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+  .org-logo { height: 44px; filter: brightness(0) invert(1); }
+  .header-text {}
+  .page-title { font-family: 'Fraunces', serif; font-size: 26px; font-weight: 700; color: #fff; }
+  .page-sub { font-size: 11px; color: var(--text3); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 3px; }
+
+  /* Instructions */
+  .instructions {
+    background: rgba(125,184,232,0.07);
+    border: 1px solid rgba(125,184,232,0.2);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 28px;
+    font-size: 13px;
+    color: var(--text2);
+    line-height: 1.7;
+  }
+  .instructions strong { color: var(--blue); }
+  .instructions ol { padding-left: 18px; margin-top: 8px; }
+  .instructions li { margin-bottom: 4px; }
+
+  /* Search box */
+  .search-section { margin-bottom: 28px; }
+  .search-label {
+    font-size: 10px; font-weight: 600; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--text2); margin-bottom: 8px;
+  }
+  .search-row { display: flex; gap: 10px; }
+  .search-input {
+    flex: 1;
+    background: rgba(255,255,255,0.06);
+    border: 1.5px solid rgba(125,184,232,0.3);
+    border-radius: 10px;
+    padding: 12px 16px;
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .search-input:focus { border-color: rgba(125,184,232,0.7); }
+  .search-input::placeholder { color: var(--text3); }
+  .search-btn {
+    background: linear-gradient(135deg, #c9a45e, #e8c07d);
+    color: #0c0800;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .search-btn:hover { filter: brightness(1.1); transform: translateY(-1px); }
+  .search-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+
+  /* Results */
+  .results-section { margin-bottom: 36px; }
+  .results-label {
+    font-size: 10px; font-weight: 600; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--text2); margin-bottom: 10px;
+  }
+  .result-item {
+    display: flex; align-items: center; justify-content: space-between;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    transition: all 0.15s;
+    gap: 12px;
+  }
+  .result-item:hover { border-color: rgba(232,192,125,0.25); background: var(--bg3); }
+  .result-name { font-size: 14px; font-weight: 600; color: var(--text); }
+  .result-id { font-size: 11px; color: var(--text3); font-family: monospace; margin-top: 2px; }
+  .add-btn {
+    background: rgba(110,231,183,0.1);
+    border: 1px solid rgba(110,231,183,0.3);
+    color: var(--green);
+    border-radius: 8px;
+    padding: 7px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .add-btn:hover { background: rgba(110,231,183,0.2); }
+  .add-btn.added { background: rgba(110,231,183,0.15); color: var(--green); cursor: default; }
+  .no-results { color: var(--text3); font-size: 13px; padding: 12px 0; font-style: italic; }
+  .status-msg { font-size: 12px; color: var(--text3); padding: 8px 0; }
+
+  /* School list */
+  .list-section {}
+  .list-header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .list-label {
+    font-size: 10px; font-weight: 600; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--text2);
+  }
+  .list-actions { display: flex; gap: 8px; }
+  .action-btn {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid var(--border);
+    color: var(--text2);
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .action-btn:hover { background: rgba(255,255,255,0.1); color: var(--text); }
+  .action-btn.primary {
+    background: rgba(232,192,125,0.1);
+    border-color: rgba(232,192,125,0.3);
+    color: var(--accent);
+  }
+  .action-btn.primary:hover { background: rgba(232,192,125,0.2); }
+  .action-btn.danger {
+    background: rgba(248,113,113,0.08);
+    border-color: rgba(248,113,113,0.2);
+    color: var(--red);
+  }
+  .action-btn.danger:hover { background: rgba(248,113,113,0.15); }
+
+  .school-list {
+    background: rgba(0,0,0,0.2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    max-height: 380px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255,255,255,0.15) transparent;
+  }
+  .school-list::-webkit-scrollbar { width: 6px; }
+  .school-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+
+  .school-row {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border);
+    gap: 12px;
+    transition: background 0.1s;
+  }
+  .school-row:last-child { border-bottom: none; }
+  .school-row:hover { background: rgba(255,255,255,0.03); }
+  .school-row-name { font-size: 13px; color: var(--text); font-weight: 500; }
+  .school-row-id { font-size: 10px; color: var(--text3); font-family: monospace; margin-top: 1px; }
+  .remove-btn {
+    background: none; border: none;
+    color: var(--text3); font-size: 16px;
+    cursor: pointer; padding: 2px 6px;
+    border-radius: 4px; transition: all 0.12s;
+    flex-shrink: 0;
+  }
+  .remove-btn:hover { color: var(--red); background: rgba(248,113,113,0.1); }
+
+  .empty-list { padding: 24px; text-align: center; color: var(--text3); font-size: 13px; font-style: italic; }
+
+  /* JSON output */
+  .json-section { margin-top: 28px; }
+  .json-label {
+    font-size: 10px; font-weight: 600; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--text2); margin-bottom: 8px;
+  }
+  .json-box {
+    background: rgba(0,0,0,0.3);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    font-family: monospace;
+    font-size: 11px;
+    color: var(--text2);
+    white-space: pre-wrap;
+    word-break: break-all;
+    max-height: 200px;
+    overflow-y: auto;
+    line-height: 1.6;
+  }
+  .copy-btn {
+    margin-top: 8px;
+    background: rgba(232,192,125,0.1);
+    border: 1px solid rgba(232,192,125,0.3);
+    color: var(--accent);
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .copy-btn:hover { background: rgba(232,192,125,0.2); }
+  .copy-btn.copied { color: var(--green); border-color: rgba(110,231,183,0.3); background: rgba(110,231,183,0.08); }
+
+  /* Toast */
+  .toast {
+    position: fixed; bottom: 24px; right: 24px;
+    background: var(--bg3);
+    border: 1px solid rgba(110,231,183,0.3);
+    color: var(--green);
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0;
+    transform: translateY(8px);
+    transition: all 0.25s;
+    pointer-events: none;
+    z-index: 999;
+  }
+  .toast.show { opacity: 1; transform: translateY(0); }
+
+  .divider { height: 1px; background: var(--border); margin: 32px 0; }
+
+  .count-badge {
+    background: rgba(232,192,125,0.15);
+    border: 1px solid rgba(232,192,125,0.25);
+    color: var(--accent);
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 8px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <img src="https://truthatwork.org/wp-content/uploads/2022/12/Truth-at-Work-Logo_KO-480x328.png" class="org-logo" alt="Truth at Work"/>
+    <div class="header-text">
+      <div class="page-title">School ID Lookup</div>
+      <div class="page-sub">Champion Network · School List Manager</div>
+    </div>
+  </div>
+
+  <div class="instructions">
+    <strong>How to use this tool:</strong>
+    <ol>
+      <li>Make sure you are logged into LinkedIn Sales Navigator in this browser</li>
+      <li>Search for a school by name below — it queries Sales Navigator's live school database</li>
+      <li>Click <strong>Add</strong> next to any school to add it to your list</li>
+      <li>When done, copy the JSON and paste it into your hosted school list file</li>
+    </ol>
+  </div>
+
+  <!-- Search -->
+  <div class="search-section">
+    <div class="search-label">Search for a School</div>
+    <div class="search-row">
+      <input class="search-input" id="search-input" placeholder="e.g. Wheaton College, Biola, Cedarville…" autocomplete="off"/>
+      <button class="search-btn" id="search-btn">Search</button>
+    </div>
+    <div class="status-msg" id="status-msg"></div>
+  </div>
+
+  <!-- Results -->
+  <div class="results-section" id="results-section" style="display:none">
+    <div class="results-label">Search Results</div>
+    <div id="results-list"></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- School list -->
+  <div class="list-section">
+    <div class="list-header">
+      <div class="list-label">
+        Your School List
+        <span class="count-badge" id="count-badge">0</span>
+      </div>
+      <div class="list-actions">
+        <button class="action-btn" id="btn-load-current">Load Current List</button>
+        <button class="action-btn danger" id="btn-clear">Clear All</button>
+      </div>
+    </div>
+    <div class="school-list" id="school-list">
+      <div class="empty-list">No schools added yet — search above or load your current list</div>
+    </div>
+  </div>
+
+  <!-- JSON output -->
+  <div class="json-section">
+    <div class="json-label">JSON Output <span style="color:var(--text3);font-size:9px;font-weight:400;text-transform:none;letter-spacing:0">(paste this into your hosted school list file)</span></div>
+    <div class="json-box" id="json-box">[ ]</div>
+    <button class="copy-btn" id="copy-btn">Copy JSON</button>
+  </div>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ── State ────────────────────────────────────────────────────────────────────
+let schools = []; // { id, name }
+
+// ── DOM ──────────────────────────────────────────────────────────────────────
+const searchInput = document.getElementById('search-input');
+const searchBtn = document.getElementById('search-btn');
+const statusMsg = document.getElementById('status-msg');
+const resultsSection = document.getElementById('results-section');
+const resultsList = document.getElementById('results-list');
+const schoolListEl = document.getElementById('school-list');
+const countBadge = document.getElementById('count-badge');
+const jsonBox = document.getElementById('json-box');
+const copyBtn = document.getElementById('copy-btn');
+
+// ── Search ───────────────────────────────────────────────────────────────────
+async function doSearch() {
+  const q = searchInput.value.trim();
+  if (!q) return;
+
+  searchBtn.disabled = true;
+  searchBtn.textContent = 'Searching…';
+  statusMsg.textContent = '';
+  resultsSection.style.display = 'none';
+
+  try {
+    // Use the Sales Navigator facet typeahead with type=SCHOOL
+    const csrfToken = document.cookie
+      .split('; ')
+      .find(r => r.startsWith('JSESSIONID='))
+      ?.split('=')[1]?.replace(/"/g, '') || '';
+
+    const url = `https://www.linkedin.com/sales-api/salesApiFacetTypeahead?q=query&start=0&count=10&type=SCHOOL&query=${encodeURIComponent(q)}`;
+
+    const resp = await fetch(url, {
+      credentials: 'include',
+      headers: {
+        'accept': 'application/json',
+        'csrf-token': csrfToken,
+        'x-restli-protocol-version': '2.0.0'
+      }
+    });
+
+    if (!resp.ok) {
+      statusMsg.textContent = `Error ${resp.status} — make sure you're logged into LinkedIn Sales Navigator`;
+      return;
+    }
+
+    const data = await resp.json();
+    const elements = data.elements || data.results || [];
+
+    if (!elements.length) {
+      statusMsg.textContent = 'No results found — try a different spelling';
+      resultsSection.style.display = 'none';
+      return;
+    }
+
+    const results = elements.map(el => ({
+      name: el.displayValue || el.name || '',
+      id: String(el.id || (el.objectUrn || '').replace('urn:li:organization:','').replace('urn:li:school:','') || '')
+    })).filter(r => r.id && r.name);
+
+    renderResults(results);
+
+  } catch(e) {
+    statusMsg.textContent = `Error: ${e.message} — are you logged into Sales Navigator?`;
+  } finally {
+    searchBtn.disabled = false;
+    searchBtn.textContent = 'Search';
+  }
+}
+
+function renderResults(results) {
+  if (!results.length) {
+    resultsList.innerHTML = '<div class="no-results">No results found</div>';
+  } else {
+    resultsList.innerHTML = results.map(r => {
+      const alreadyAdded = schools.some(s => s.id === r.id);
+      return `<div class="result-item">
+        <div>
+          <div class="result-name">${r.name}</div>
+          <div class="result-id">ID: ${r.id}</div>
+        </div>
+        <button class="add-btn ${alreadyAdded ? 'added' : ''}" 
+          onclick="addSchool('${r.id}', ${JSON.stringify(r.name)})"
+          ${alreadyAdded ? 'disabled' : ''}>
+          ${alreadyAdded ? '✓ Added' : '+ Add'}
+        </button>
+      </div>`;
+    }).join('');
+  }
+  resultsSection.style.display = 'block';
+}
+
+// ── School list management ────────────────────────────────────────────────────
+function addSchool(id, name) {
+  if (schools.some(s => s.id === id)) return;
+  schools.push({ id, name });
+  schools.sort((a, b) => a.name.localeCompare(b.name));
+  renderSchoolList();
+  updateJSON();
+  showToast(`✓ Added ${name}`);
+  // Refresh results to show "Added" state
+  const btns = resultsList.querySelectorAll('.add-btn');
+  btns.forEach(btn => {
+    if (btn.onclick && btn.onclick.toString().includes(id)) {
+      btn.textContent = '✓ Added';
+      btn.classList.add('added');
+      btn.disabled = true;
+    }
+  });
+}
+
+function removeSchool(id) {
+  schools = schools.filter(s => s.id !== id);
+  renderSchoolList();
+  updateJSON();
+}
+
+function renderSchoolList() {
+  countBadge.textContent = schools.length;
+  if (!schools.length) {
+    schoolListEl.innerHTML = '<div class="empty-list">No schools added yet — search above or load your current list</div>';
+    return;
+  }
+  schoolListEl.innerHTML = schools.map(s => `
+    <div class="school-row">
+      <div>
+        <div class="school-row-name">${s.name}</div>
+        <div class="school-row-id">ID: ${s.id}</div>
+      </div>
+      <button class="remove-btn" onclick="removeSchool('${s.id}')" title="Remove">×</button>
+    </div>
+  `).join('');
+}
+
+function updateJSON() {
+  jsonBox.textContent = JSON.stringify(schools, null, 2);
+}
+
+// ── Load current list from extension's hardcoded SCHOOL_PARAM ────────────────
+document.getElementById('btn-load-current').addEventListener('click', () => {
+  // Parse the hardcoded school list from the extension
+  // This is the full list extracted from popup.js SCHOOL_PARAM
+  const hardcoded = [
+    {id:"10179673",name:"Boyce College"},{id:"1028293",name:"Nazarene Bible College"},
+    {id:"10544",name:"Abilene Christian University"},{id:"10701",name:"Chapman University"},
+    {id:"1075996",name:"Great Lakes Christian College"},{id:"113267",name:"College of the Ozarks"},
+    {id:"114785",name:"Dakota Wesleyan University"},{id:"1200634",name:"Kentucky Christian University"},
+    {id:"12054",name:"Azusa Pacific University"},{id:"14517",name:"Regent University"},
+    {id:"15101410",name:"Southwestern Christian University"},{id:"15134914",name:"World Harvest Bible College"},
+    {id:"15142349",name:"Northwestern College _ Iowa"},{id:"15248707",name:"The Southern Baptist Theological Seminary"},
+    {id:"15669",name:"Wheaton College"},{id:"16010",name:"Fuller Theological Seminary"},
+    {id:"162751",name:"Bob Jones University"},{id:"1639187",name:"Midland University"},
+    {id:"164607",name:"King's College"},{id:"165330",name:"Oral Roberts University"},
+    {id:"166267",name:"Taylor University"},{id:"166922",name:"Westmont College"},
+    {id:"16973",name:"Biola University"},{id:"17844",name:"Belmont University"},
+    {id:"18026",name:"Concordia College"},{id:"18701",name:"Monmouth University"},
+    {id:"18827",name:"Oklahoma Christian University"},{id:"18919",name:"LeTourneau University"},
+    {id:"19167",name:"Union College"},{id:"19306",name:"Dallas Baptist University"},
+    {id:"19416",name:"Oklahoma City University"},{id:"19476",name:"Anderson University"},
+    {id:"19497",name:"Samford University"},{id:"19509",name:"Cedarville University"},
+    {id:"19523",name:"Point Loma Nazarene University"},{id:"19624",name:"Bethel University"},
+    {id:"19627",name:"Cornerstone University"},{id:"19681",name:"Moody Bible Institute"},
+    {id:"19690",name:"North Park University"},{id:"20006",name:"Ashland University"},
+    {id:"20720",name:"Rhodes College"},{id:"20876",name:"Colorado Christian University"},
+    {id:"20905",name:"Lee University"},{id:"2151331",name:"Arizona Christian University"},
+    {id:"21643",name:"Carroll University"},{id:"2164573",name:"Oklahoma Wesleyan University"},
+    {id:"21961",name:"Lakeland University"},{id:"2237564",name:"Bacone College"},
+    {id:"22648",name:"Luther College"},{id:"22674",name:"Albion College"},
+    {id:"22689",name:"Augustana College"},{id:"22897",name:"Judson University"},
+    {id:"22946",name:"Carthage College"},{id:"23078",name:"Olivet Nazarene University"},
+    {id:"23300",name:"Ohio Wesleyan University"},{id:"23403",name:"Millikin University"},
+    {id:"243896",name:"Siena Heights University"},{id:"24425",name:"Hope College"},
+    {id:"24900",name:"Belhaven University"},{id:"24999",name:"Texas Wesleyan University"},
+    {id:"25468",name:"Southern Wesleyan University"},{id:"25647",name:"Grove City College"},
+    {id:"26240",name:"Berea College"},{id:"262610",name:"Pensacola Christian College"},
+    {id:"26297",name:"Shenandoah University"},{id:"26545",name:"Mount Vernon Nazarene University"},
+    {id:"27199",name:"Spring Arbor University"},{id:"28205",name:"Hillsdale College"},
+    {id:"28353",name:"Covenant College"},{id:"286942",name:"Concordia University-St. Paul"},
+    {id:"28791",name:"Madonna University"},{id:"30432",name:"Eastern Nazarene College"},
+    {id:"30465",name:"Coe College"},{id:"30604643",name:"Aquinas College"},
+    {id:"30831",name:"The King's College"},{id:"310891",name:"Maranatha Baptist University"},
+    {id:"32259",name:"Centre College"},{id:"32704",name:"Roanoke College"},
+    {id:"33774",name:"Nebraska Wesleyan University"},{id:"34017",name:"Goshen College"},
+    {id:"346938",name:"University of the Cumberlands"},{id:"34817",name:"Dallas Theological Seminary"},
+    {id:"35871",name:"Campbellsville University"},{id:"36488",name:"Oklahoma Baptist University"},
+    {id:"36767",name:"The Master's University"},{id:"38441",name:"Asbury Theological Seminary"},
+    {id:"390793",name:"Ohio Christian University"},{id:"420899",name:"Concordia University Irvine"},
+    {id:"42961",name:"Ouachita Baptist University"},{id:"430846",name:"Mid-America Christian University"},
+    {id:"437788",name:"St. Andrew's-Sewanee School"},{id:"487113",name:"Johnson University"},
+    {id:"493838",name:"Lincoln Christian University"},{id:"49450",name:"Illinois College"},
+    {id:"495994",name:"Truett McConnell University"},{id:"5023",name:"University of Rochester"},
+    {id:"512819",name:"North Greenville University"},{id:"51395",name:"Columbia International University"},
+    {id:"51562",name:"Denver Seminary"},{id:"52469",name:"Missouri Baptist University"},
+    {id:"53498",name:"Southern Nazarene University"},{id:"557459",name:"Trine University"},
+    {id:"56121",name:"Lubbock Christian University"},{id:"57213",name:"Virginia Wesleyan University"},
+    {id:"57269",name:"Western Seminary"},{id:"57357",name:"Toccoa Falls College"},
+    {id:"59012",name:"Hastings College"},{id:"59409",name:"Kentucky Wesleyan College"},
+    {id:"60267",name:"Northland College"},{id:"618352",name:"Trinity Bible College"},
+    {id:"62801",name:"Clarkson College"},{id:"66587",name:"Adrian College"},
+    {id:"67598",name:"Cincinnati Christian University"},{id:"71534",name:"University of Mobile"},
+    {id:"74165",name:"Dallas Christian College"},{id:"745866",name:"Grace Christian University"},
+    {id:"77840",name:"Stillman College"},{id:"81209",name:"Finlandia University"},
+    {id:"869329",name:"Concordia Portland Alumni & Friends"},{id:"874169",name:"New York Theological Seminary"},
+    {id:"8792799",name:"Union Christian College Aluva"},{id:"89930",name:"Faulkner University"},
+    {id:"9155025",name:"Appalachian Bible College"},{id:"91837",name:"Kuyper College"},
+    {id:"92485",name:"Milligan College"},{id:"939980",name:"Oakwood University"},
+    {id:"942959",name:"Davis College"},{id:"9654",name:"Liberty University"}
+  ];
+  schools = [...hardcoded].sort((a,b) => a.name.localeCompare(b.name));
+  renderSchoolList();
+  updateJSON();
+  showToast(`✓ Loaded ${schools.length} schools`);
+});
+
+document.getElementById('btn-clear').addEventListener('click', () => {
+  if (!confirm('Clear all schools from the list?')) return;
+  schools = [];
+  renderSchoolList();
+  updateJSON();
+});
+
+// ── Copy JSON ─────────────────────────────────────────────────────────────────
+copyBtn.addEventListener('click', () => {
+  navigator.clipboard.writeText(JSON.stringify(schools, null, 2)).then(() => {
+    copyBtn.textContent = '✓ Copied!';
+    copyBtn.classList.add('copied');
+    setTimeout(() => {
+      copyBtn.textContent = 'Copy JSON';
+      copyBtn.classList.remove('copied');
+    }, 2000);
+  });
+});
+
+// ── Events ────────────────────────────────────────────────────────────────────
+searchBtn.addEventListener('click', doSearch);
+searchInput.addEventListener('keydown', e => { if (e.key === 'Enter') doSearch(); });
+
+// ── Toast ─────────────────────────────────────────────────────────────────────
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+</script>
+</body>
+</html>
