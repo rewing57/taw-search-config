@@ -1,550 +1,138 @@
 [
-  {
-    "id": "10544",
-    "name": "Abilene Christian University"
-  },
-  {
-    "id": "66587",
-    "name": "Adrian College"
-  },
-  {
-    "id": "22674",
-    "name": "Albion College"
-  },
-  {
-    "id": "19476",
-    "name": "Anderson University"
-  },
-  {
-    "id": "9155025",
-    "name": "Appalachian Bible College"
-  },
-  {
-    "id": "30604643",
-    "name": "Aquinas College"
-  },
-  {
-    "id": "2151331",
-    "name": "Arizona Christian University"
-  },
-  {
-    "id": "38441",
-    "name": "Asbury Theological Seminary"
-  },
-  {
-    "id": "20006",
-    "name": "Ashland University"
-  },
-  {
-    "id": "22689",
-    "name": "Augustana College"
-  },
-  {
-    "id": "12054",
-    "name": "Azusa Pacific University"
-  },
-  {
-    "id": "2237564",
-    "name": "Bacone College"
-  },
-  {
-    "id": "24900",
-    "name": "Belhaven University"
-  },
-  {
-    "id": "17844",
-    "name": "Belmont University"
-  },
-  {
-    "id": "26240",
-    "name": "Berea College"
-  },
-  {
-    "id": "19624",
-    "name": "Bethel University"
-  },
-  {
-    "id": "16973",
-    "name": "Biola University"
-  },
-  {
-    "id": "162751",
-    "name": "Bob Jones University"
-  },
-  {
-    "id": "10179673",
-    "name": "Boyce College"
-  },
-  {
-    "id": "162865",
-    "name": "Calvin University"
-  },
-  {
-    "id": "35871",
-    "name": "Campbellsville University"
-  },
-  {
-    "id": "21643",
-    "name": "Carroll University"
-  },
-  {
-    "id": "22946",
-    "name": "Carthage College"
-  },
-  {
-    "id": "19509",
-    "name": "Cedarville University"
-  },
-  {
-    "id": "32259",
-    "name": "Centre College"
-  },
-  {
-    "id": "10701",
-    "name": "Chapman University"
-  },
-  {
-    "id": "67598",
-    "name": "Cincinnati Christian University"
-  },
-  {
-    "id": "62801",
-    "name": "Clarkson College"
-  },
-  {
-    "id": "30465",
-    "name": "Coe College"
-  },
-  {
-    "id": "113267",
-    "name": "College of the Ozarks"
-  },
-  {
-    "id": "20876",
-    "name": "Colorado Christian University"
-  },
-  {
-    "id": "51395",
-    "name": "Columbia International University"
-  },
-  {
-    "id": "18026",
-    "name": "Concordia College"
-  },
-  {
-    "id": "869329",
-    "name": "Concordia Portland Alumni & Friends"
-  },
-  {
-    "id": "420899",
-    "name": "Concordia University Irvine"
-  },
-  {
-    "id": "286942",
-    "name": "Concordia University-St. Paul"
-  },
-  {
-    "id": "19627",
-    "name": "Cornerstone University"
-  },
-  {
-    "id": "28353",
-    "name": "Covenant College"
-  },
-  {
-    "id": "67500",
-    "name": "Covenant Theological Seminary"
-  },
-  {
-    "id": "114785",
-    "name": "Dakota Wesleyan University"
-  },
-  {
-    "id": "19306",
-    "name": "Dallas Baptist University"
-  },
-  {
-    "id": "74165",
-    "name": "Dallas Christian College"
-  },
-  {
-    "id": "34817",
-    "name": "Dallas Theological Seminary"
-  },
-  {
-    "id": "942959",
-    "name": "Davis College"
-  },
-  {
-    "id": "51562",
-    "name": "Denver Seminary"
-  },
-  {
-    "id": "46474",
-    "name": "Dordt University"
-  },
-  {
-    "id": "30432",
-    "name": "Eastern Nazarene College"
-  },
-  {
-    "id": "89930",
-    "name": "Faulkner University"
-  },
-  {
-    "id": "81209",
-    "name": "Finlandia University"
-  },
-  {
-    "id": "16010",
-    "name": "Fuller Theological Seminary"
-  },
-  {
-    "id": "164026",
-    "name": "Gordon College"
-  },
-  {
-    "id": "34017",
-    "name": "Goshen College"
-  },
-  {
-    "id": "745866",
-    "name": "Grace Christian University"
-  },
-  {
-    "id": "1075996",
-    "name": "Great Lakes Christian College"
-  },
-  {
-    "id": "25647",
-    "name": "Grove City College"
-  },
-  {
-    "id": "59012",
-    "name": "Hastings College"
-  },
-  {
-    "id": "28205",
-    "name": "Hillsdale College"
-  },
-  {
-    "id": "24425",
-    "name": "Hope College"
-  },
-  {
-    "id": "20530",
-    "name": "Houghton University"
-  },
-  {
-    "id": "49450",
-    "name": "Illinois College"
-  },
-  {
-    "id": "25227",
-    "name": "John Brown University"
-  },
-  {
-    "id": "487113",
-    "name": "Johnson University"
-  },
-  {
-    "id": "22897",
-    "name": "Judson University"
-  },
-  {
-    "id": "1200634",
-    "name": "Kentucky Christian University"
-  },
-  {
-    "id": "59409",
-    "name": "Kentucky Wesleyan College"
-  },
-  {
-    "id": "164607",
-    "name": "King's College"
-  },
-  {
-    "id": "91837",
-    "name": "Kuyper College"
-  },
-  {
-    "id": "21961",
-    "name": "Lakeland University"
-  },
-  {
-    "id": "15101436",
-    "name": "Lancaster Bible College"
-  },
-  {
-    "id": "20905",
-    "name": "Lee University"
-  },
-  {
-    "id": "18919",
-    "name": "LeTourneau University"
-  },
-  {
-    "id": "9654",
-    "name": "Liberty University"
-  },
-  {
-    "id": "493838",
-    "name": "Lincoln Christian University"
-  },
-  {
-    "id": "56121",
-    "name": "Lubbock Christian University"
-  },
-  {
-    "id": "22648",
-    "name": "Luther College"
-  },
-  {
-    "id": "28791",
-    "name": "Madonna University"
-  },
-  {
-    "id": "310891",
-    "name": "Maranatha Baptist University"
-  },
-  {
-    "id": "19549",
-    "name": "Messiah University"
-  },
-  {
-    "id": "430846",
-    "name": "Mid-America Christian University"
-  },
-  {
-    "id": "1639187",
-    "name": "Midland University"
-  },
-  {
-    "id": "92485",
-    "name": "Milligan College"
-  },
-  {
-    "id": "23403",
-    "name": "Millikin University"
-  },
-  {
-    "id": "52469",
-    "name": "Missouri Baptist University"
-  },
-  {
-    "id": "18701",
-    "name": "Monmouth University"
-  },
-  {
-    "id": "19681",
-    "name": "Moody Bible Institute"
-  },
-  {
-    "id": "26545",
-    "name": "Mount Vernon Nazarene University"
-  },
-  {
-    "id": "1028293",
-    "name": "Nazarene Bible College"
-  },
-  {
-    "id": "33774",
-    "name": "Nebraska Wesleyan University"
-  },
-  {
-    "id": "874169",
-    "name": "New York Theological Seminary"
-  },
-  {
-    "id": "512819",
-    "name": "North Greenville University"
-  },
-  {
-    "id": "19690",
-    "name": "North Park University"
-  },
-  {
-    "id": "60267",
-    "name": "Northland College"
-  },
-  {
-    "id": "15142349",
-    "name": "Northwestern College - Iowa"
-  },
-  {
-    "id": "939980",
-    "name": "Oakwood University"
-  },
-  {
-    "id": "390793",
-    "name": "Ohio Christian University"
-  },
-  {
-    "id": "23300",
-    "name": "Ohio Wesleyan University"
-  },
-  {
-    "id": "36488",
-    "name": "Oklahoma Baptist University"
-  },
-  {
-    "id": "18827",
-    "name": "Oklahoma Christian University"
-  },
-  {
-    "id": "19416",
-    "name": "Oklahoma City University"
-  },
-  {
-    "id": "2164573",
-    "name": "Oklahoma Wesleyan University"
-  },
-  {
-    "id": "23078",
-    "name": "Olivet Nazarene University"
-  },
-  {
-    "id": "165330",
-    "name": "Oral Roberts University"
-  },
-  {
-    "id": "42961",
-    "name": "Ouachita Baptist University"
-  },
-  {
-    "id": "235881",
-    "name": "Patrick Henry College"
-  },
-  {
-    "id": "262610",
-    "name": "Pensacola Christian College"
-  },
-  {
-    "id": "19523",
-    "name": "Point Loma Nazarene University"
-  },
-  {
-    "id": "14517",
-    "name": "Regent University"
-  },
-  {
-    "id": "20720",
-    "name": "Rhodes College"
-  },
-  {
-    "id": "32704",
-    "name": "Roanoke College"
-  },
-  {
-    "id": "19497",
-    "name": "Samford University"
-  },
-  {
-    "id": "26297",
-    "name": "Shenandoah University"
-  },
-  {
-    "id": "243896",
-    "name": "Siena Heights University"
-  },
-  {
-    "id": "53498",
-    "name": "Southern Nazarene University"
-  },
-  {
-    "id": "25468",
-    "name": "Southern Wesleyan University"
-  },
-  {
-    "id": "15101410",
-    "name": "Southwestern Christian University"
-  },
-  {
-    "id": "27199",
-    "name": "Spring Arbor University"
-  },
-  {
-    "id": "437788",
-    "name": "St. Andrew's-Sewanee School"
-  },
-  {
-    "id": "77840",
-    "name": "Stillman College"
-  },
-  {
-    "id": "166267",
-    "name": "Taylor University"
-  },
-  {
-    "id": "24999",
-    "name": "Texas Wesleyan University"
-  },
-  {
-    "id": "30831",
-    "name": "The King's College"
-  },
-  {
-    "id": "36767",
-    "name": "The Master's University"
-  },
-  {
-    "id": "15248707",
-    "name": "The Southern Baptist Theological Seminary"
-  },
-  {
-    "id": "57357",
-    "name": "Toccoa Falls College"
-  },
-  {
-    "id": "557459",
-    "name": "Trine University"
-  },
-  {
-    "id": "618352",
-    "name": "Trinity Bible College"
-  },
-  {
-    "id": "495994",
-    "name": "Truett McConnell University"
-  },
-  {
-    "id": "8792799",
-    "name": "Union Christian College Aluva"
-  },
-  {
-    "id": "19167",
-    "name": "Union College"
-  },
-  {
-    "id": "71534",
-    "name": "University of Mobile"
-  },
-  {
-    "id": "5023",
-    "name": "University of Rochester"
-  },
-  {
-    "id": "346938",
-    "name": "University of the Cumberlands"
-  },
-  {
-    "id": "57213",
-    "name": "Virginia Wesleyan University"
-  },
-  {
-    "id": "57269",
-    "name": "Western Seminary"
-  },
-  {
-    "id": "166922",
-    "name": "Westmont College"
-  },
-  {
-    "id": "15669",
-    "name": "Wheaton College"
-  },
-  {
-    "id": "15134914",
-    "name": "World Harvest Bible College"
-  }
+  { "id": "10544", "name": "Abilene Christian University - Abilene, TX" },
+  { "id": "66587", "name": "Adrian College - Adrian, MI" },
+  { "id": "22674", "name": "Albion College - Albion, MI" },
+  { "id": "19476", "name": "Anderson University - Anderson, IN" },
+  { "id": "9155025", "name": "Appalachian Bible College - Mount Hope, WV" },
+  { "id": "30604643", "name": "Aquinas College - Grand Rapids, MI" },
+  { "id": "2151331", "name": "Arizona Christian University - Glendale, AZ" },
+  { "id": "38441", "name": "Asbury Theological Seminary - Wilmore, KY" },
+  { "id": "20006", "name": "Ashland University - Ashland, OH" },
+  { "id": "22689", "name": "Augustana College - Rock Island, IL" },
+  { "id": "12054", "name": "Azusa Pacific University - Azusa, CA" },
+  { "id": "2237564", "name": "Bacone College - Muskogee, OK" },
+  { "id": "24900", "name": "Belhaven University - Jackson, MS" },
+  { "id": "17844", "name": "Belmont University - Nashville, TN" },
+  { "id": "26240", "name": "Berea College - Berea, KY" },
+  { "id": "19624", "name": "Bethel University - St. Paul, MN" },
+  { "id": "16973", "name": "Biola University - La Mirada, CA" },
+  { "id": "162751", "name": "Bob Jones University - Greenville, SC" },
+  { "id": "10179673", "name": "Boyce College - Louisville, KY" },
+  { "id": "162865", "name": "Calvin University - Grand Rapids, MI" },
+  { "id": "35871", "name": "Campbellsville University - Campbellsville, KY" },
+  { "id": "21643", "name": "Carroll University - Waukesha, WI" },
+  { "id": "22946", "name": "Carthage College - Kenosha, WI" },
+  { "id": "19509", "name": "Cedarville University - Cedarville, OH" },
+  { "id": "32259", "name": "Centre College - Danville, KY" },
+  { "id": "10701", "name": "Chapman University - Orange, CA" },
+  { "id": "67598", "name": "Cincinnati Christian University - Cincinnati, OH" },
+  { "id": "62801", "name": "Clarkson College - Omaha, NE" },
+  { "id": "30465", "name": "Coe College - Cedar Rapids, IA" },
+  { "id": "113267", "name": "College of the Ozarks - Point Lookout, MO" },
+  { "id": "20876", "name": "Colorado Christian University - Lakewood, CO" },
+  { "id": "51395", "name": "Columbia International University - Columbia, SC" },
+  { "id": "18026", "name": "Concordia College - Moorhead, MN" },
+  { "id": "869329", "name": "Concordia Portland Alumni & Friends - Portland, OR" },
+  { "id": "420899", "name": "Concordia University Irvine - Irvine, CA" },
+  { "id": "286942", "name": "Concordia University-St. Paul - St. Paul, MN" },
+  { "id": "19627", "name": "Cornerstone University - Grand Rapids, MI" },
+  { "id": "28353", "name": "Covenant College - Lookout Mountain, GA" },
+  { "id": "67500", "name": "Covenant Theological Seminary - St. Louis, MO" },
+  { "id": "114785", "name": "Dakota Wesleyan University - Mitchell, SD" },
+  { "id": "19306", "name": "Dallas Baptist University - Dallas, TX" },
+  { "id": "74165", "name": "Dallas Christian College - Dallas, TX" },
+  { "id": "34817", "name": "Dallas Theological Seminary - Dallas, TX" },
+  { "id": "942959", "name": "Davis College - Johnson City, NY" },
+  { "id": "51562", "name": "Denver Seminary - Littleton, CO" },
+  { "id": "46474", "name": "Dordt University - Sioux Center, IA" },
+  { "id": "30432", "name": "Eastern Nazarene College - Quincy, MA" },
+  { "id": "89930", "name": "Faulkner University - Montgomery, AL" },
+  { "id": "81209", "name": "Finlandia University - Hancock, MI" },
+  { "id": "16010", "name": "Fuller Theological Seminary - Pasadena, CA" },
+  { "id": "164026", "name": "Gordon College - Wenham, MA" },
+  { "id": "34017", "name": "Goshen College - Goshen, IN" },
+  { "id": "745866", "name": "Grace Christian University - Grand Rapids, MI" },
+  { "id": "1075996", "name": "Great Lakes Christian College - Lansing, MI" },
+  { "id": "25647", "name": "Grove City College - Grove City, PA" },
+  { "id": "59012", "name": "Hastings College - Hastings, NE" },
+  { "id": "28205", "name": "Hillsdale College - Hillsdale, MI" },
+  { "id": "24425", "name": "Hope College - Holland, MI" },
+  { "id": "20530", "name": "Houghton University - Houghton, NY" },
+  { "id": "49450", "name": "Illinois College - Jacksonville, IL" },
+  { "id": "25227", "name": "John Brown University - Siloam Springs, AR" },
+  { "id": "487113", "name": "Johnson University - Knoxville, TN" },
+  { "id": "22897", "name": "Judson University - Elgin, IL" },
+  { "id": "1200634", "name": "Kentucky Christian University - Grayson, KY" },
+  { "id": "59409", "name": "Kentucky Wesleyan College - Owensboro, KY" },
+  { "id": "164607", "name": "King's College - Wilkes-Barre, PA" },
+  { "id": "91837", "name": "Kuyper College - Grand Rapids, MI" },
+  { "id": "21961", "name": "Lakeland University - Plymouth, WI" },
+  { "id": "15101436", "name": "Lancaster Bible College - Lancaster, PA" },
+  { "id": "20905", "name": "Lee University - Cleveland, TN" },
+  { "id": "18919", "name": "LeTourneau University - Longview, TX" },
+  { "id": "9654", "name": "Liberty University - Lynchburg, VA" },
+  { "id": "493838", "name": "Lincoln Christian University - Lincoln, IL" },
+  { "id": "56121", "name": "Lubbock Christian University - Lubbock, TX" },
+  { "id": "22648", "name": "Luther College - Decorah, IA" },
+  { "id": "28791", "name": "Madonna University - Livonia, MI" },
+  { "id": "310891", "name": "Maranatha Baptist University - Watertown, WI" },
+  { "id": "19549", "name": "Messiah University - Mechanicsburg, PA" },
+  { "id": "430846", "name": "Mid-America Christian University - Oklahoma City, OK" },
+  { "id": "1639187", "name": "Midland University - Fremont, NE" },
+  { "id": "92485", "name": "Milligan College - Milligan, TN" },
+  { "id": "23403", "name": "Millikin University - Decatur, IL" },
+  { "id": "52469", "name": "Missouri Baptist University - St. Louis, MO" },
+  { "id": "18701", "name": "Monmouth University - West Long Branch, NJ" },
+  { "id": "19681", "name": "Moody Bible Institute - Chicago, IL" },
+  { "id": "26545", "name": "Mount Vernon Nazarene University - Mount Vernon, OH" },
+  { "id": "1028293", "name": "Nazarene Bible College - Colorado Springs, CO" },
+  { "id": "33774", "name": "Nebraska Wesleyan University - Lincoln, NE" },
+  { "id": "874169", "name": "New York Theological Seminary - New York, NY" },
+  { "id": "512819", "name": "North Greenville University - Tigerville, SC" },
+  { "id": "19690", "name": "North Park University - Chicago, IL" },
+  { "id": "60267", "name": "Northland College - Ashland, WI" },
+  { "id": "15142349", "name": "Northwestern College - Iowa - Orange City, IA" },
+  { "id": "939980", "name": "Oakwood University - Huntsville, AL" },
+  { "id": "390793", "name": "Ohio Christian University - Circleville, OH" },
+  { "id": "23300", "name": "Ohio Wesleyan University - Delaware, OH" },
+  { "id": "36488", "name": "Oklahoma Baptist University - Shawnee, OK" },
+  { "id": "18827", "name": "Oklahoma Christian University - Edmond, OK" },
+  { "id": "19416", "name": "Oklahoma City University - Oklahoma City, OK" },
+  { "id": "2164573", "name": "Oklahoma Wesleyan University - Bartlesville, OK" },
+  { "id": "23078", "name": "Olivet Nazarene University - Bourbonnais, IL" },
+  { "id": "165330", "name": "Oral Roberts University - Tulsa, OK" },
+  { "id": "42961", "name": "Ouachita Baptist University - Arkadelphia, AR" },
+  { "id": "235881", "name": "Patrick Henry College - Purcellville, VA" },
+  { "id": "262610", "name": "Pensacola Christian College - Pensacola, FL" },
+  { "id": "19523", "name": "Point Loma Nazarene University - San Diego, CA" },
+  { "id": "14517", "name": "Regent University - Virginia Beach, VA" },
+  { "id": "20720", "name": "Rhodes College - Memphis, TN" },
+  { "id": "32704", "name": "Roanoke College - Salem, VA" },
+  { "id": "19497", "name": "Samford University - Birmingham, AL" },
+  { "id": "26297", "name": "Shenandoah University - Winchester, VA" },
+  { "id": "243896", "name": "Siena Heights University - Adrian, MI" },
+  { "id": "53498", "name": "Southern Nazarene University - Bethany, OK" },
+  { "id": "25468", "name": "Southern Wesleyan University - Central, SC" },
+  { "id": "15101410", "name": "Southwestern Christian University - Bethany, OK" },
+  { "id": "27199", "name": "Spring Arbor University - Spring Arbor, MI" },
+  { "id": "437788", "name": "St. Andrew's-Sewanee School - Sewanee, TN" },
+  { "id": "77840", "name": "Stillman College - Tuscaloosa, AL" },
+  { "id": "166267", "name": "Taylor University - Upland, IN" },
+  { "id": "24999", "name": "Texas Wesleyan University - Fort Worth, TX" },
+  { "id": "30831", "name": "The King's College - New York, NY" },
+  { "id": "36767", "name": "The Master's University - Santa Clarita, CA" },
+  { "id": "15248707", "name": "The Southern Baptist Theological Seminary - Louisville, KY" },
+  { "id": "57357", "name": "Toccoa Falls College - Toccoa Falls, GA" },
+  { "id": "557459", "name": "Trine University - Angola, IN" },
+  { "id": "618352", "name": "Trinity Bible College - Ellendale, ND" },
+  { "id": "495994", "name": "Truett McConnell University - Cleveland, GA" },
+  { "id": "19167", "name": "Union College - Barbourville, KY" },
+  { "id": "71534", "name": "University of Mobile - Mobile, AL" },
+  { "id": "5023", "name": "University of Rochester - Rochester, NY" },
+  { "id": "346938", "name": "University of the Cumberlands - Williamsburg, KY" },
+  { "id": "57213", "name": "Virginia Wesleyan University - Virginia Beach, VA" },
+  { "id": "57269", "name": "Western Seminary - Portland, OR" },
+  { "id": "166922", "name": "Westmont College - Santa Barbara, CA" },
+  { "id": "15669", "name": "Wheaton College - Wheaton, IL" },
+  { "id": "15134914", "name": "World Harvest Bible College - Columbus, OH" }
 ]
