@@ -16,6 +16,10 @@
     "name": "Anderson University - Anderson, IN"
   },
   {
+    "id": "422193",
+    "name": "Anderson University (SC)"
+  },
+  {
     "id": "9155025",
     "name": "Appalachian Bible College - Mount Hope, WV"
   },
@@ -30,6 +34,14 @@
   {
     "id": "38441",
     "name": "Asbury Theological Seminary - Wilmore, KY"
+  },
+  {
+    "id": "20985",
+    "name": "Asbury University"
+  },
+  {
+    "id": "28655909",
+    "name": "Asbury University's Howard and Beverly Dayton School of Business"
   },
   {
     "id": "20006",
@@ -68,6 +80,10 @@
     "name": "Berry College - Campbell School of Business"
   },
   {
+    "id": "19160226",
+    "name": "Bethel University"
+  },
+  {
     "id": "19624",
     "name": "Bethel University - St. Paul, MN"
   },
@@ -82,6 +98,10 @@
   {
     "id": "10179673",
     "name": "Boyce College - Louisville, KY"
+  },
+  {
+    "id": "56173",
+    "name": "Cairn University"
   },
   {
     "id": "162865",
@@ -196,6 +216,10 @@
     "name": "Eastern Nazarene College - Quincy, MA"
   },
   {
+    "id": "73775",
+    "name": "Erskine College"
+  },
+  {
     "id": "89930",
     "name": "Faulkner University - Montgomery, AL"
   },
@@ -220,12 +244,24 @@
     "name": "Grace Christian University - Grand Rapids, MI"
   },
   {
+    "id": "44420",
+    "name": "Grace College & Seminary"
+  },
+  {
     "id": "1075996",
     "name": "Great Lakes Christian College - Lansing, MI"
   },
   {
     "id": "25647",
     "name": "Grove City College - Grove City, PA"
+  },
+  {
+    "id": "33990",
+    "name": "Hardin-Simmons University"
+  },
+  {
+    "id": "19974",
+    "name": "Harding University"
   },
   {
     "id": "59012",
@@ -242,6 +278,14 @@
   {
     "id": "20530",
     "name": "Houghton University - Houghton, NY"
+  },
+  {
+    "id": "21949",
+    "name": "Houston Christian University"
+  },
+  {
+    "id": "15102292",
+    "name": "Houston Christian University - Archie W. Dunham College of Business"
   },
   {
     "id": "49450",
@@ -298,6 +342,10 @@
   {
     "id": "493838",
     "name": "Lincoln Christian University - Lincoln, IL"
+  },
+  {
+    "id": "22436",
+    "name": "Lipscomb University"
   },
   {
     "id": "56121",
@@ -364,6 +412,10 @@
     "name": "New York Theological Seminary - New York, NY"
   },
   {
+    "id": "44945",
+    "name": "North Central University"
+  },
+  {
     "id": "512819",
     "name": "North Greenville University - Tigerville, SC"
   },
@@ -374,6 +426,14 @@
   {
     "id": "60267",
     "name": "Northland College - Ashland, WI"
+  },
+  {
+    "id": "31753",
+    "name": "Northwest Nazarene University"
+  },
+  {
+    "id": "18977032",
+    "name": "Northwest Nazarene University College of Business"
   },
   {
     "id": "15142349",
@@ -476,8 +536,16 @@
     "name": "St. Andrew's-Sewanee School - Sewanee, TN"
   },
   {
+    "id": "211617",
+    "name": "Sterling College"
+  },
+  {
     "id": "77840",
     "name": "Stillman College - Tuscaloosa, AL"
+  },
+  {
+    "id": "515431",
+    "name": "Tabor College"
   },
   {
     "id": "166267",
@@ -504,6 +572,10 @@
     "name": "Toccoa Falls College - Toccoa Falls, GA"
   },
   {
+    "id": "30690",
+    "name": "Trevecca Nazarene University"
+  },
+  {
     "id": "557459",
     "name": "Trine University - Angola, IN"
   },
@@ -518,6 +590,10 @@
   {
     "id": "19167",
     "name": "Union College - Barbourville, KY"
+  },
+  {
+    "id": "28539",
+    "name": "Union University"
   },
   {
     "id": "71534",
