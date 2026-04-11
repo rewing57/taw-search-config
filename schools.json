@@ -1,630 +1,1258 @@
 [
   {
     "id": "10544",
-    "name": "Abilene Christian University - Abilene, TX"
+    "name": "Abilene Christian University - Abilene, TX",
+    "location": "Abilene, TX",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "66587",
-    "name": "Adrian College - Adrian, MI"
+    "name": "Adrian College - Adrian, MI",
+    "location": "Adrian, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "22674",
-    "name": "Albion College - Albion, MI"
-  },
-  {
-    "id": "19476",
-    "name": "Anderson University - Anderson, IN"
+    "name": "Albion College - Albion, MI",
+    "location": "Albion, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "422193",
-    "name": "Anderson University (SC)"
+    "name": "Anderson University (SC)",
+    "location": "Anderson, SC",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
+  },
+  {
+    "id": "19476",
+    "name": "Anderson University - Anderson, IN",
+    "location": "Anderson, IN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "9155025",
-    "name": "Appalachian Bible College - Mount Hope, WV"
+    "name": "Appalachian Bible College - Mount Hope, WV",
+    "location": "Mount Hope, WV",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "30604643",
-    "name": "Aquinas College - Grand Rapids, MI"
+    "name": "Aquinas College - Grand Rapids, MI",
+    "location": "Grand Rapids, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "2151331",
-    "name": "Arizona Christian University - Glendale, AZ"
+    "name": "Arizona Christian University - Glendale, AZ",
+    "location": "Glendale, AZ",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "38441",
-    "name": "Asbury Theological Seminary - Wilmore, KY"
+    "name": "Asbury Theological Seminary - Wilmore, KY",
+    "location": "Wilmore, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "20985",
-    "name": "Asbury University"
+    "name": "Asbury University",
+    "location": "Wilmore, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "28655909",
-    "name": "Asbury University's Howard and Beverly Dayton School of Business"
+    "name": "Asbury University's Howard and Beverly Dayton School of Business",
+    "location": "Wilmore, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "20006",
-    "name": "Ashland University - Ashland, OH"
+    "name": "Ashland University - Ashland, OH",
+    "location": "Ashland, OH",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "22689",
-    "name": "Augustana College - Rock Island, IL"
+    "name": "Augustana College - Rock Island, IL",
+    "location": "Rock Island, IL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "12054",
-    "name": "Azusa Pacific University - Azusa, CA"
+    "name": "Azusa Pacific University - Azusa, CA",
+    "location": "Azusa, CA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "2237564",
-    "name": "Bacone College - Muskogee, OK"
+    "name": "Bacone College - Muskogee, OK",
+    "location": "Muskogee, OK",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "24900",
-    "name": "Belhaven University - Jackson, MS"
+    "name": "Belhaven University - Jackson, MS",
+    "location": "Jackson, MS",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "17844",
-    "name": "Belmont University - Nashville, TN"
+    "name": "Belmont University - Nashville, TN",
+    "location": "Nashville, TN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "26240",
-    "name": "Berea College - Berea, KY"
+    "name": "Berea College - Berea, KY",
+    "location": "Berea, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19035",
-    "name": "Berry College"
+    "name": "Berry College",
+    "location": "Mount Berry, GA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "6973118",
-    "name": "Berry College - Campbell School of Business"
+    "name": "Berry College - Campbell School of Business",
+    "location": "Mount Berry, GA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19160226",
-    "name": "Bethel University"
+    "name": "Bethel University",
+    "location": "Mishawaka, IN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19624",
-    "name": "Bethel University - St. Paul, MN"
+    "name": "Bethel University - St. Paul, MN",
+    "location": "St. Paul, MN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "16973",
-    "name": "Biola University - La Mirada, CA"
+    "name": "Biola University - La Mirada, CA",
+    "location": "La Mirada, CA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "162751",
-    "name": "Bob Jones University - Greenville, SC"
+    "name": "Bob Jones University - Greenville, SC",
+    "location": "Greenville, SC",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "10179673",
-    "name": "Boyce College - Louisville, KY"
+    "name": "Boyce College - Louisville, KY",
+    "location": "Louisville, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "56173",
-    "name": "Cairn University"
+    "name": "Cairn University",
+    "location": "Langhorne, PA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "162865",
-    "name": "Calvin University - Grand Rapids, MI"
+    "name": "Calvin University - Grand Rapids, MI",
+    "location": "Grand Rapids, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "35871",
-    "name": "Campbellsville University - Campbellsville, KY"
+    "name": "Campbellsville University - Campbellsville, KY",
+    "location": "Campbellsville, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "21643",
-    "name": "Carroll University - Waukesha, WI"
+    "name": "Carroll University - Waukesha, WI",
+    "location": "Waukesha, WI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "22946",
-    "name": "Carthage College - Kenosha, WI"
+    "name": "Carthage College - Kenosha, WI",
+    "location": "Kenosha, WI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19509",
-    "name": "Cedarville University - Cedarville, OH"
+    "name": "Cedarville University - Cedarville, OH",
+    "location": "Cedarville, OH",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "32259",
-    "name": "Centre College - Danville, KY"
+    "name": "Centre College - Danville, KY",
+    "location": "Danville, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "10701",
-    "name": "Chapman University - Orange, CA"
+    "name": "Chapman University - Orange, CA",
+    "location": "Orange, CA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "67598",
-    "name": "Cincinnati Christian University - Cincinnati, OH"
+    "name": "Cincinnati Christian University - Cincinnati, OH",
+    "location": "Cincinnati, OH",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "62801",
-    "name": "Clarkson College - Omaha, NE"
+    "name": "Clarkson College - Omaha, NE",
+    "location": "Omaha, NE",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "30465",
-    "name": "Coe College - Cedar Rapids, IA"
+    "name": "Coe College - Cedar Rapids, IA",
+    "location": "Cedar Rapids, IA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "113267",
-    "name": "College of the Ozarks - Point Lookout, MO"
+    "name": "College of the Ozarks - Point Lookout, MO",
+    "location": "Point Lookout, MO",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "20876",
-    "name": "Colorado Christian University - Lakewood, CO"
+    "name": "Colorado Christian University - Lakewood, CO",
+    "location": "Lakewood, CO",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "51395",
-    "name": "Columbia International University - Columbia, SC"
+    "name": "Columbia International University - Columbia, SC",
+    "location": "Columbia, SC",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "18026",
-    "name": "Concordia College - Moorhead, MN"
+    "name": "Concordia College - Moorhead, MN",
+    "location": "Moorhead, MN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "869329",
-    "name": "Concordia Portland Alumni & Friends - Portland, OR"
+    "name": "Concordia Portland Alumni & Friends - Portland, OR",
+    "location": "Portland, OR",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "420899",
-    "name": "Concordia University Irvine - Irvine, CA"
+    "name": "Concordia University Irvine - Irvine, CA",
+    "location": "Irvine, CA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "286942",
-    "name": "Concordia University-St. Paul - St. Paul, MN"
+    "name": "Concordia University-St. Paul - St. Paul, MN",
+    "location": "St. Paul, MN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19627",
-    "name": "Cornerstone University - Grand Rapids, MI"
+    "name": "Cornerstone University - Grand Rapids, MI",
+    "location": "Grand Rapids, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "28353",
-    "name": "Covenant College - Lookout Mountain, GA"
+    "name": "Covenant College - Lookout Mountain, GA",
+    "location": "Lookout Mountain, GA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "67500",
-    "name": "Covenant Theological Seminary - St. Louis, MO"
+    "name": "Covenant Theological Seminary - St. Louis, MO",
+    "location": "St. Louis, MO",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "114785",
-    "name": "Dakota Wesleyan University - Mitchell, SD"
+    "name": "Dakota Wesleyan University - Mitchell, SD",
+    "location": "Mitchell, SD",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19306",
-    "name": "Dallas Baptist University - Dallas, TX"
+    "name": "Dallas Baptist University - Dallas, TX",
+    "location": "Dallas, TX",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "74165",
-    "name": "Dallas Christian College - Dallas, TX"
+    "name": "Dallas Christian College - Dallas, TX",
+    "location": "Dallas, TX",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "34817",
-    "name": "Dallas Theological Seminary - Dallas, TX"
+    "name": "Dallas Theological Seminary - Dallas, TX",
+    "location": "Dallas, TX",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "942959",
-    "name": "Davis College - Johnson City, NY"
+    "name": "Davis College - Johnson City, NY",
+    "location": "Johnson City, NY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "51562",
-    "name": "Denver Seminary - Littleton, CO"
+    "name": "Denver Seminary - Littleton, CO",
+    "location": "Littleton, CO",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "46474",
-    "name": "Dordt University - Sioux Center, IA"
+    "name": "Dordt University - Sioux Center, IA",
+    "location": "Sioux Center, IA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "30432",
-    "name": "Eastern Nazarene College - Quincy, MA"
+    "name": "Eastern Nazarene College - Quincy, MA",
+    "location": "Quincy, MA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "73775",
-    "name": "Erskine College"
+    "name": "Erskine College",
+    "location": "Due West, SC",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "89930",
-    "name": "Faulkner University - Montgomery, AL"
+    "name": "Faulkner University - Montgomery, AL",
+    "location": "Montgomery, AL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "81209",
-    "name": "Finlandia University - Hancock, MI"
+    "name": "Finlandia University - Hancock, MI",
+    "location": "Hancock, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "16010",
-    "name": "Fuller Theological Seminary - Pasadena, CA"
+    "name": "Fuller Theological Seminary - Pasadena, CA",
+    "location": "Pasadena, CA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "164026",
-    "name": "Gordon College - Wenham, MA"
+    "name": "Gordon College - Wenham, MA",
+    "location": "Wenham, MA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "34017",
-    "name": "Goshen College - Goshen, IN"
+    "name": "Goshen College - Goshen, IN",
+    "location": "Goshen, IN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "745866",
-    "name": "Grace Christian University - Grand Rapids, MI"
+    "name": "Grace Christian University - Grand Rapids, MI",
+    "location": "Grand Rapids, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "44420",
-    "name": "Grace College & Seminary"
+    "name": "Grace College & Seminary",
+    "location": "Winona Lake, IN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "1075996",
-    "name": "Great Lakes Christian College - Lansing, MI"
+    "name": "Great Lakes Christian College - Lansing, MI",
+    "location": "Lansing, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "25647",
-    "name": "Grove City College - Grove City, PA"
+    "name": "Grove City College - Grove City, PA",
+    "location": "Grove City, PA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "33990",
-    "name": "Hardin-Simmons University"
+    "name": "Hardin-Simmons University",
+    "location": "Abilene, TX",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19974",
-    "name": "Harding University"
+    "name": "Harding University",
+    "location": "Searcy, AR",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "59012",
-    "name": "Hastings College - Hastings, NE"
+    "name": "Hastings College - Hastings, NE",
+    "location": "Hastings, NE",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "28205",
-    "name": "Hillsdale College - Hillsdale, MI"
+    "name": "Hillsdale College - Hillsdale, MI",
+    "location": "Hillsdale, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "24425",
-    "name": "Hope College - Holland, MI"
+    "name": "Hope College - Holland, MI",
+    "location": "Holland, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "20530",
-    "name": "Houghton University - Houghton, NY"
+    "name": "Houghton University - Houghton, NY",
+    "location": "Houghton, NY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "21949",
-    "name": "Houston Christian University"
+    "name": "Houston Christian University",
+    "location": "Houston, TX",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "15102292",
-    "name": "Houston Christian University - Archie W. Dunham College of Business"
+    "name": "Houston Christian University - Archie W. Dunham College of Business",
+    "location": "Houston, TX",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "49450",
-    "name": "Illinois College - Jacksonville, IL"
+    "name": "Illinois College - Jacksonville, IL",
+    "location": "Jacksonville, IL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "25227",
-    "name": "John Brown University - Siloam Springs, AR"
+    "name": "John Brown University - Siloam Springs, AR",
+    "location": "Siloam Springs, AR",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "487113",
-    "name": "Johnson University - Knoxville, TN"
+    "name": "Johnson University - Knoxville, TN",
+    "location": "Knoxville, TN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "22897",
-    "name": "Judson University - Elgin, IL"
+    "name": "Judson University - Elgin, IL",
+    "location": "Elgin, IL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "1200634",
-    "name": "Kentucky Christian University - Grayson, KY"
+    "name": "Kentucky Christian University - Grayson, KY",
+    "location": "Grayson, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "59409",
-    "name": "Kentucky Wesleyan College - Owensboro, KY"
+    "name": "Kentucky Wesleyan College - Owensboro, KY",
+    "location": "Owensboro, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "164607",
-    "name": "King's College - Wilkes-Barre, PA"
+    "name": "King's College - Wilkes-Barre, PA",
+    "location": "Wilkes-Barre, PA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "91837",
-    "name": "Kuyper College - Grand Rapids, MI"
+    "name": "Kuyper College - Grand Rapids, MI",
+    "location": "Grand Rapids, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "21961",
-    "name": "Lakeland University - Plymouth, WI"
+    "name": "Lakeland University - Plymouth, WI",
+    "location": "Plymouth, WI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "15101436",
-    "name": "Lancaster Bible College - Lancaster, PA"
+    "name": "Lancaster Bible College - Lancaster, PA",
+    "location": "Lancaster, PA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "20905",
-    "name": "Lee University - Cleveland, TN"
+    "name": "Lee University - Cleveland, TN",
+    "location": "Cleveland, TN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "18919",
-    "name": "LeTourneau University - Longview, TX"
+    "name": "LeTourneau University - Longview, TX",
+    "location": "Longview, TX",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "9654",
-    "name": "Liberty University - Lynchburg, VA"
+    "name": "Liberty University - Lynchburg, VA",
+    "location": "Lynchburg, VA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "493838",
-    "name": "Lincoln Christian University - Lincoln, IL"
+    "name": "Lincoln Christian University - Lincoln, IL",
+    "location": "Lincoln, IL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "22436",
-    "name": "Lipscomb University"
+    "name": "Lipscomb University",
+    "location": "Nashville, TN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "56121",
-    "name": "Lubbock Christian University - Lubbock, TX"
+    "name": "Lubbock Christian University - Lubbock, TX",
+    "location": "Lubbock, TX",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "22648",
-    "name": "Luther College - Decorah, IA"
+    "name": "Luther College - Decorah, IA",
+    "location": "Decorah, IA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "28791",
-    "name": "Madonna University - Livonia, MI"
+    "name": "Madonna University - Livonia, MI",
+    "location": "Livonia, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "310891",
-    "name": "Maranatha Baptist University - Watertown, WI"
+    "name": "Maranatha Baptist University - Watertown, WI",
+    "location": "Watertown, WI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19549",
-    "name": "Messiah University - Mechanicsburg, PA"
+    "name": "Messiah University - Mechanicsburg, PA",
+    "location": "Mechanicsburg, PA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "430846",
-    "name": "Mid-America Christian University - Oklahoma City, OK"
+    "name": "Mid-America Christian University - Oklahoma City, OK",
+    "location": "Oklahoma City, OK",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "1639187",
-    "name": "Midland University - Fremont, NE"
+    "name": "Midland University - Fremont, NE",
+    "location": "Fremont, NE",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "92485",
-    "name": "Milligan College - Milligan, TN"
+    "name": "Milligan College - Milligan, TN",
+    "location": "Milligan, TN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "23403",
-    "name": "Millikin University - Decatur, IL"
+    "name": "Millikin University - Decatur, IL",
+    "location": "Decatur, IL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "52469",
-    "name": "Missouri Baptist University - St. Louis, MO"
+    "name": "Missouri Baptist University - St. Louis, MO",
+    "location": "St. Louis, MO",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "18701",
-    "name": "Monmouth University - West Long Branch, NJ"
+    "name": "Monmouth University - West Long Branch, NJ",
+    "location": "West Long Branch, NJ",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19681",
-    "name": "Moody Bible Institute - Chicago, IL"
+    "name": "Moody Bible Institute - Chicago, IL",
+    "location": "Chicago, IL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "26545",
-    "name": "Mount Vernon Nazarene University - Mount Vernon, OH"
+    "name": "Mount Vernon Nazarene University - Mount Vernon, OH",
+    "location": "Mount Vernon, OH",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "1028293",
-    "name": "Nazarene Bible College - Colorado Springs, CO"
+    "name": "Nazarene Bible College - Colorado Springs, CO",
+    "location": "Colorado Springs, CO",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "33774",
-    "name": "Nebraska Wesleyan University - Lincoln, NE"
+    "name": "Nebraska Wesleyan University - Lincoln, NE",
+    "location": "Lincoln, NE",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "874169",
-    "name": "New York Theological Seminary - New York, NY"
+    "name": "New York Theological Seminary - New York, NY",
+    "location": "New York, NY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "44945",
-    "name": "North Central University"
+    "name": "North Central University",
+    "location": "Minneapolis, MN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "512819",
-    "name": "North Greenville University - Tigerville, SC"
+    "name": "North Greenville University - Tigerville, SC",
+    "location": "Tigerville, SC",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19690",
-    "name": "North Park University - Chicago, IL"
+    "name": "North Park University - Chicago, IL",
+    "location": "Chicago, IL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "60267",
-    "name": "Northland College - Ashland, WI"
+    "name": "Northland College - Ashland, WI",
+    "location": "Ashland, WI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "31753",
-    "name": "Northwest Nazarene University"
+    "name": "Northwest Nazarene University",
+    "location": "Nampa, ID",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "18977032",
-    "name": "Northwest Nazarene University College of Business"
+    "name": "Northwest Nazarene University College of Business",
+    "location": "Nampa, ID",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "15142349",
-    "name": "Northwestern College - Iowa - Orange City, IA"
+    "name": "Northwestern College - Iowa - Orange City, IA",
+    "location": "Orange City, IA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "939980",
-    "name": "Oakwood University - Huntsville, AL"
+    "name": "Oakwood University - Huntsville, AL",
+    "location": "Huntsville, AL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "390793",
-    "name": "Ohio Christian University - Circleville, OH"
+    "name": "Ohio Christian University - Circleville, OH",
+    "location": "Circleville, OH",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "23300",
-    "name": "Ohio Wesleyan University - Delaware, OH"
+    "name": "Ohio Wesleyan University - Delaware, OH",
+    "location": "Delaware, OH",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "36488",
-    "name": "Oklahoma Baptist University - Shawnee, OK"
+    "name": "Oklahoma Baptist University - Shawnee, OK",
+    "location": "Shawnee, OK",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "18827",
-    "name": "Oklahoma Christian University - Edmond, OK"
+    "name": "Oklahoma Christian University - Edmond, OK",
+    "location": "Edmond, OK",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19416",
-    "name": "Oklahoma City University - Oklahoma City, OK"
+    "name": "Oklahoma City University - Oklahoma City, OK",
+    "location": "Oklahoma City, OK",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "2164573",
-    "name": "Oklahoma Wesleyan University - Bartlesville, OK"
+    "name": "Oklahoma Wesleyan University - Bartlesville, OK",
+    "location": "Bartlesville, OK",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "23078",
-    "name": "Olivet Nazarene University - Bourbonnais, IL"
+    "name": "Olivet Nazarene University - Bourbonnais, IL",
+    "location": "Bourbonnais, IL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "165330",
-    "name": "Oral Roberts University - Tulsa, OK"
+    "name": "Oral Roberts University - Tulsa, OK",
+    "location": "Tulsa, OK",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "42961",
-    "name": "Ouachita Baptist University - Arkadelphia, AR"
+    "name": "Ouachita Baptist University - Arkadelphia, AR",
+    "location": "Arkadelphia, AR",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "235881",
-    "name": "Patrick Henry College - Purcellville, VA"
+    "name": "Patrick Henry College - Purcellville, VA",
+    "location": "Purcellville, VA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "262610",
-    "name": "Pensacola Christian College - Pensacola, FL"
+    "name": "Pensacola Christian College - Pensacola, FL",
+    "location": "Pensacola, FL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19523",
-    "name": "Point Loma Nazarene University - San Diego, CA"
+    "name": "Point Loma Nazarene University - San Diego, CA",
+    "location": "San Diego, CA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "14517",
-    "name": "Regent University - Virginia Beach, VA"
+    "name": "Regent University - Virginia Beach, VA",
+    "location": "Virginia Beach, VA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "20720",
-    "name": "Rhodes College - Memphis, TN"
+    "name": "Rhodes College - Memphis, TN",
+    "location": "Memphis, TN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "32704",
-    "name": "Roanoke College - Salem, VA"
+    "name": "Roanoke College - Salem, VA",
+    "location": "Salem, VA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19497",
-    "name": "Samford University - Birmingham, AL"
+    "name": "Samford University - Birmingham, AL",
+    "location": "Birmingham, AL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "26297",
-    "name": "Shenandoah University - Winchester, VA"
+    "name": "Shenandoah University - Winchester, VA",
+    "location": "Winchester, VA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "243896",
-    "name": "Siena Heights University - Adrian, MI"
+    "name": "Siena Heights University - Adrian, MI",
+    "location": "Adrian, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "53498",
-    "name": "Southern Nazarene University - Bethany, OK"
+    "name": "Southern Nazarene University - Bethany, OK",
+    "location": "Bethany, OK",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "25468",
-    "name": "Southern Wesleyan University - Central, SC"
+    "name": "Southern Wesleyan University - Central, SC",
+    "location": "Central, SC",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "15101410",
-    "name": "Southwestern Christian University - Bethany, OK"
+    "name": "Southwestern Christian University - Bethany, OK",
+    "location": "Bethany, OK",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "27199",
-    "name": "Spring Arbor University - Spring Arbor, MI"
+    "name": "Spring Arbor University - Spring Arbor, MI",
+    "location": "Spring Arbor, MI",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "437788",
-    "name": "St. Andrew's-Sewanee School - Sewanee, TN"
+    "name": "St. Andrew's-Sewanee School - Sewanee, TN",
+    "location": "Sewanee, TN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "211617",
-    "name": "Sterling College"
+    "name": "Sterling College",
+    "location": "Sterling, KS",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "77840",
-    "name": "Stillman College - Tuscaloosa, AL"
+    "name": "Stillman College - Tuscaloosa, AL",
+    "location": "Tuscaloosa, AL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "515431",
-    "name": "Tabor College"
+    "name": "Tabor College",
+    "location": "Hillsboro, KS",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "166267",
-    "name": "Taylor University - Upland, IN"
+    "name": "Taylor University - Upland, IN",
+    "location": "Upland, IN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "24999",
-    "name": "Texas Wesleyan University - Fort Worth, TX"
+    "name": "Texas Wesleyan University - Fort Worth, TX",
+    "location": "Fort Worth, TX",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "30831",
-    "name": "The King's College - New York, NY"
+    "name": "The King's College - New York, NY",
+    "location": "New York, NY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "36767",
-    "name": "The Master's University - Santa Clarita, CA"
+    "name": "The Master's University - Santa Clarita, CA",
+    "location": "Santa Clarita, CA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "15248707",
-    "name": "The Southern Baptist Theological Seminary - Louisville, KY"
+    "name": "The Southern Baptist Theological Seminary - Louisville, KY",
+    "location": "Louisville, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "57357",
-    "name": "Toccoa Falls College - Toccoa Falls, GA"
+    "name": "Toccoa Falls College - Toccoa Falls, GA",
+    "location": "Toccoa Falls, GA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "30690",
-    "name": "Trevecca Nazarene University"
+    "name": "Trevecca Nazarene University",
+    "location": "Nashville, TN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "557459",
-    "name": "Trine University - Angola, IN"
+    "name": "Trine University - Angola, IN",
+    "location": "Angola, IN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "618352",
-    "name": "Trinity Bible College - Ellendale, ND"
+    "name": "Trinity Bible College - Ellendale, ND",
+    "location": "Ellendale, ND",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "495994",
-    "name": "Truett McConnell University - Cleveland, GA"
+    "name": "Truett McConnell University - Cleveland, GA",
+    "location": "Cleveland, GA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "19167",
-    "name": "Union College - Barbourville, KY"
+    "name": "Union College - Barbourville, KY",
+    "location": "Barbourville, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "28539",
-    "name": "Union University"
+    "name": "Union University",
+    "location": "Jackson, TN",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "71534",
-    "name": "University of Mobile - Mobile, AL"
+    "name": "University of Mobile - Mobile, AL",
+    "location": "Mobile, AL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "5023",
-    "name": "University of Rochester - Rochester, NY"
+    "name": "University of Rochester - Rochester, NY",
+    "location": "Rochester, NY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "346938",
-    "name": "University of the Cumberlands - Williamsburg, KY"
+    "name": "University of the Cumberlands - Williamsburg, KY",
+    "location": "Williamsburg, KY",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "57213",
-    "name": "Virginia Wesleyan University - Virginia Beach, VA"
+    "name": "Virginia Wesleyan University - Virginia Beach, VA",
+    "location": "Virginia Beach, VA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "57269",
-    "name": "Western Seminary - Portland, OR"
+    "name": "Western Seminary - Portland, OR",
+    "location": "Portland, OR",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "166922",
-    "name": "Westmont College - Santa Barbara, CA"
+    "name": "Westmont College - Santa Barbara, CA",
+    "location": "Santa Barbara, CA",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "15669",
-    "name": "Wheaton College - Wheaton, IL"
+    "name": "Wheaton College - Wheaton, IL",
+    "location": "Wheaton, IL",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   },
   {
     "id": "15134914",
-    "name": "World Harvest Bible College - Columbus, OH"
+    "name": "World Harvest Bible College - Columbus, OH",
+    "location": "Columbus, OH",
+    "status": "approved",
+    "suggestedBy": "",
+    "suggestedDate": ""
   }
 ]
