@@ -24,17 +24,17 @@
     "suggestedDate": ""
   },
   {
-    "id": "422193",
-    "name": "Anderson University (SC)",
-    "location": "Anderson, SC",
+    "id": "19476",
+    "name": "Anderson University - Anderson, IN",
+    "location": "Anderson, IN",
     "status": "approved",
     "suggestedBy": "",
     "suggestedDate": ""
   },
   {
-    "id": "19476",
-    "name": "Anderson University - Anderson, IN",
-    "location": "Anderson, IN",
+    "id": "422193",
+    "name": "Anderson University (SC)",
+    "location": "Anderson, SC",
     "status": "approved",
     "suggestedBy": "",
     "suggestedDate": ""
@@ -806,6 +806,15 @@
     "status": "approved",
     "suggestedBy": "",
     "suggestedDate": ""
+  },
+  {
+    "id": "",
+    "name": "Nazarene Theological Seminary",
+    "location": "Kansas City, MO",
+    "status": "approved",
+    "suggestedBy": "Ron Ewing",
+    "suggestedDate": "2026-04-14",
+    "note": "Test 4th time."
   },
   {
     "id": "33774",
